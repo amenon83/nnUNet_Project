@@ -16,7 +16,7 @@ clog_filepath = "    "
 
 #path to output folder with a /images subfolder
 #example: output_dir = ".../nnUNet_Project/Prediction_NIfTI_Images/{FOLDER_NAME}/images"
-output_dir = "/home/liyong/Desktop/nnUNet_Project/Prediction_NIfTI_Images/dataset002train/images"
+output_dir = "     "
 
 mapping_file = os.path.join(output_dir, "frame_mapping.txt")
 os.makedirs(output_dir, exist_ok=True)
