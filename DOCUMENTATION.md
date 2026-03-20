@@ -58,7 +58,7 @@
      ```bash
      export nnUNet_raw=".../nnUNet_Project/nnUNet_raw"
      export nnUNet_preprocessed=".../nnUNet_Project/nnUNet_preprocessed"
-     export nnUNet_results="home/liyong/Desktop/nnUNet_Project/nnUNet_results"
+     export nnUNet_results=".../nnUNet_Project/nnUNet_results"
      export nnUNet_compile=0
      ```
 > **Note:** The Omen PC uses a GeForce GTX 1070 with a CUDA Capability of 6.1, which is incompatible with the compiler used by the PyTorch version currently installed. nnUNet_compile being set to zero means that we ignore the Triton compiler that would normally optimize the training process.
@@ -219,7 +219,7 @@
    
    **Example:**
    ```bash
-   nnUNetv2_predict -d ### -i /home/liyong/Desktop/nnUNet_Project/Prediction_NIfTI_Images/{FOLDER_NAME}/images -o /home/liyong/Desktop/nnUNet_Project/Prediction_NIfTI_Images/{FOLDER_NAME}/predictions -c 2d -f 0
+   nnUNetv2_predict -d ### -i .../nnUNet_Project/Prediction_NIfTI_Images/{FOLDER_NAME}/images -o .../nnUNet_Project/Prediction_NIfTI_Images/{FOLDER_NAME}/predictions -c 2d -f 0
    ```
    
    - The `/predictions` folder will be created automatically
